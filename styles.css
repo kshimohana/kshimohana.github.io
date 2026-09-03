@@ -72,3 +72,4 @@ footer { display: flex; justify-content: space-between; padding: 36px 0px 48px; 
 .intro-screen.reveal { opacity:1; transform:none; filter:none; }
 .intro-screen { display:grid; grid-template-rows:minmax(0,1fr) auto; }
 .portrait-figure { align-self:center; }
+.portrait-figure { justify-self:center; }
