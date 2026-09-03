@@ -25,3 +25,5 @@ footer{display:flex;justify-content:space-between;padding:36px 0 48px;color:#687
 @media(max-width:820px){html{scroll-behavior:auto!important;overflow-x:clip}body{overflow-x:clip;overscroll-behavior-y:none}main{overflow:visible;padding-bottom:max(48px,env(safe-area-inset-bottom))}footer{padding-bottom:max(72px,calc(48px + env(safe-area-inset-bottom)))}footer .reveal{opacity:1!important;transform:none!important;filter:none!important;transition:none!important}}
 
 @media(max-width:820px){main{padding-bottom:0}footer{padding-bottom:48px}}
+
+html,body,button,input,textarea,select{font-family:"Yu Mincho","Hiragino Mincho ProN","Hiragino Mincho Pro","Noto Serif JP",serif}
