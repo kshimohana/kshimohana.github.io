@@ -77,3 +77,5 @@ footer { display: flex; justify-content: space-between; padding: 36px 0px 48px; 
 html, body { background-color:#0c2631; }
 main { min-height:100vh; background:linear-gradient(180deg,var(--paper),#eeece6); }
 .hero { padding-top:env(safe-area-inset-top); margin-top:calc(-1 * env(safe-area-inset-top)); }
+
+.intro-screen{position:relative}.scroll-cue{position:absolute;left:50%;bottom:max(14px,env(safe-area-inset-bottom));width:44px;height:44px;display:grid;place-items:center;transform:translateX(-50%);opacity:.58;transition:opacity .25s;z-index:2}.scroll-cue:hover{opacity:.9}.scroll-cue span{width:14px;height:14px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:rotate(45deg);animation:scrollCue 2s ease-in-out infinite}.highlights{scroll-margin-top:24px}@keyframes scrollCue{0%,100%{transform:translateY(-3px) rotate(45deg);opacity:.45}50%{transform:translateY(5px) rotate(45deg);opacity:1}}@media(prefers-reduced-motion:reduce){.scroll-cue span{animation:none}}
