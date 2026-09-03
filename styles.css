@@ -69,3 +69,4 @@ footer { display: flex; justify-content: space-between; padding: 36px 0px 48px; 
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; filter: none; transition: none; }
 }
+.intro-screen.reveal { opacity:1; transform:none; filter:none; }
