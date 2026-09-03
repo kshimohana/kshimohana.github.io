@@ -31,3 +31,5 @@ html,body,button,input,textarea,select{font-family:"Yu Mincho","Hiragino Mincho 
 h1>span{font-weight:700}
 
 .portrait-figure figcaption{display:none}
+
+body,.hero{background-attachment:fixed;background-repeat:no-repeat;background-size:cover}
