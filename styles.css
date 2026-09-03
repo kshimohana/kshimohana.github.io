@@ -27,3 +27,5 @@ footer{display:flex;justify-content:space-between;padding:36px 0 48px;color:#687
 @media(max-width:820px){main{padding-bottom:0}footer{padding-bottom:48px}}
 
 html,body,button,input,textarea,select{font-family:"Yu Mincho","Hiragino Mincho ProN","Hiragino Mincho Pro","Noto Serif JP",serif}
+
+h1>span{font-weight:700}
